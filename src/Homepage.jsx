@@ -174,8 +174,8 @@ const HomePage = () => {
               </div>
             </div>
             
-            <div className="w-full md:w-1/2 p-4 md:p-8 lg:p-12 bg-gradient-to-br from-cyan-9000 via-cyan to-gray-9000 ">
-              {/* Auction Details and Career Statistics sections */}
+            <div className="w-full md:w-1/2 p-4 md:p-8 lg:p-12 bg-gradient-to-tr from-cyan-9000 via-cyan to-gray-9000 via-gray-9000 to-cyan-9000">
+            {/* Auction Details and Career Statistics sections */}
               {/* ... (rest of your code) ... */}
               <div className="bg-opacity-80 backdrop-blur-md rounded-xl p-4 md:p-8 mb-8 transition-transform transform border border border-cyan-500/60 hover:scale-105">
                 <h2 className="text-xl md:text-2xl font-bold mb-4 flex items-center">
