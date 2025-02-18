@@ -127,13 +127,13 @@ const Home = () => {
           <div className="grid grid-cols-2 gap-8 mt-6">
             <div className="static-border slide-in-left">
               <div className="backdrop-blur-md rounded-lg p-6 text-center">
-                <h2 className="text-l font-bold mb-4 text-cyan-300">Sold Players</h2>
+                <h2 className="text-l font-bold mb-4 text-cyan-300">SoldPlayers</h2>
                 <p className="text-2xl font-bold text-cyan-300">{playerData.totalSoldPlayers}</p>
               </div>
             </div>
             <div className="static-border slide-in-right">
               <div className="backdrop-blur-md rounded-lg p-6 text-center">
-                <h2 className="text-l font-bold mb-4 text-cyan-300">Unsold Players</h2>
+                <h2 className="text-l font-bold mb-4 text-cyan-300">UnsoldPlayers</h2>
                 <p className="text-2xl font-bold text-cyan-300">{playerData.totalUnsoldPlayers}</p>
               </div>
             </div>
