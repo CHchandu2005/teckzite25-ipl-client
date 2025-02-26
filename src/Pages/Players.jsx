@@ -199,9 +199,9 @@ const Players = () => {
                             </p>
                           </div>
                           <div className="bg-[#232533] p-2 rounded-lg">
-                            <p className="text-gray-400 text-xs">50/100</p>
+                            <p className="text-gray-400 text-xs">BasePrice</p>
                             <p className="text-sm font-bold text-cyan-400">
-                              {player.fiftybyhundred}
+                              {player.basePrice}
                             </p>
                           </div>
                           <div className="bg-[#232533] p-2 rounded-lg">
