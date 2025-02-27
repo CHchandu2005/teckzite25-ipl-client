@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FaFlag, FaUser } from 'react-icons/fa';
 import { PiCricketBold } from 'react-icons/pi';
+import { MdOutlineCurrencyRupee } from "react-icons/md";
+
 import styled from 'styled-components';
 const Backend_Url = import.meta.env.VITE_BACKEND_URL;
 
@@ -200,10 +202,11 @@ const Players = () => {
                           </div>
                           <div className="bg-[#232533] p-2 rounded-lg">
                             <p className="text-gray-400 text-xs">BasePrice</p>
-                            <p className="text-sm font-bold text-cyan-400">
-                              {player.basePrice}
+                            <p className="text-sm font-bold text-cyan-400 flex items-center">
+                              <MdOutlineCurrencyRupee className="ms-2" /> {player.basePrice}
                             </p>
                           </div>
+
                           <div className="bg-[#232533] p-2 rounded-lg">
                             <p className="text-gray-400 text-xs">Strike Rate</p>
                             <p className="text-sm font-bold text-cyan-400">
