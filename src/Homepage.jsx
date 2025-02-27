@@ -531,12 +531,11 @@ const HomePage = () => {
 
             <div className="relative w-full h-1/2 md:h-full md:w-1/2">
               <img
-                alt="A placeholder image of a cricket player in action"
-                className="w-full h-full object-cover object-top"
-                height="400"
-                src={player.image}
-                width="600"
-              />
+  alt="A placeholder image of a cricket player in action"
+  className="w-[600px] h-[50vh] md:h-[100vh] object-cover object-top"
+  src={player.image}
+/>
+
               <GradientOverlay />
 
               <div className="absolute bottom-0 left-0 right-0 p-4 md:p-8 lg:p-12">
