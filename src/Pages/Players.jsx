@@ -203,7 +203,7 @@ const Players = () => {
                           <div className="bg-[#232533] p-2 rounded-lg">
                             <p className="text-gray-400 text-xs">BasePrice</p>
                             <p className="text-sm font-bold text-cyan-400 flex items-center">
-                              <MdOutlineCurrencyRupee className="ms-2" /> {player.basePrice}
+                              <MdOutlineCurrencyRupee className="ms-2" /> {player.basePrice} L
                             </p>
                           </div>
 
