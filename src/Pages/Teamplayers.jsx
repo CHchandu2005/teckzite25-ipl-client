@@ -255,7 +255,7 @@ const Players = () => {
                                         <div className="mt-1 text-xs flex justify-between text-gray-400">
                                           <span>{player.soldTeam}</span>
                                           <span className="text-cyan-400 font-bold">
-                                            {player.soldAmount} Rs
+                                            {player.soldAmount} L
                                           </span>
                                         </div>
                                       )}
