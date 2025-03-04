@@ -245,7 +245,10 @@ const Players = () => {
                             <div className="mt-1 text-xs flex justify-between text-gray-400">
                               <span>{player.soldTeam}</span>
                               <span className="text-cyan-400 font-bold">
-                                {player.soldAmount} Rs
+                                {/* {player.soldAmount} Rs */}
+                                <p className="text-sm font-bold text-cyan-400 flex items-center">
+                              <MdOutlineCurrencyRupee className="ms-0" /> {player.basePrice} L
+                            </p>
                               </span>
                             </div>
                           )}
