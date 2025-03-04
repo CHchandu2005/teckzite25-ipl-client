@@ -286,10 +286,10 @@ const Players = () => {
                         <div className="flex items-center justify-between">
                           <div>
                             <p className="text-cyan-400 text-2xl font-bold flex items-center">
-                              <MdOutlineCurrencyRupee /> {teamData.remainingPurse}
+                              <MdOutlineCurrencyRupee /> {teamData.remainingPurse} L
                             </p>
                             <p className="text-gray-400 text-sm flex items-center">
-                              of <MdOutlineCurrencyRupee className="ms-1" /> {teamData.initialPurse}
+                              of <MdOutlineCurrencyRupee className="ms-1" /> {teamData.initialPurse} L
                             </p>
                           </div>
                         </div>
