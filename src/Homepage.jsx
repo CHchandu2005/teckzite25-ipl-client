@@ -291,10 +291,10 @@ const HomePage = () => {
                     {/* Button Content */}
                     <span className="relative flex items-center justify-center gap-2 text-cyan-300 group-hover/btn:text-cyan-200 transition-colors duration-300">
                       {/* <span className="w-4 h-4"><FiUsers /></span> */}
-                      50/100
+                      IPL matches
                     </span>
                     <div className="text-2xl md:text-3xl font-bold">
-                      {player.fiftybyhundred}
+                      {player.ipl}
                     </div>
 
                     {/* Geometric Accents */}

@@ -188,16 +188,16 @@ const Players = () => {
                           </div>
                         </div>
                         <div className="grid grid-cols-3 gap-3">
-                          <div className="bg-[#232533] p-2 rounded-lg">
-                            <p className="text-gray-400 text-xs">Runs</p>
+                        <div className="bg-[#232533] p-2 rounded-lg">
+                            <p className="text-gray-400 text-xs">Matches</p>
                             <p className="text-sm font-bold text-cyan-400">
-                              {player.runs}
+                              {player.ipl}
                             </p>
                           </div>
                           <div className="bg-[#232533] p-2 rounded-lg">
-                            <p className="text-gray-400 text-xs">Wickets</p>
+                            <p className="text-gray-400 text-xs">{player.role == "bowler"?"Wickets":"Runs"}</p>
                             <p className="text-sm font-bold text-cyan-400">
-                              {player.wickets}
+                              {player.role == "bowler"?player.wickets:player.runs}
                             </p>
                           </div>
                           <div className="bg-[#232533] p-2 rounded-lg">
