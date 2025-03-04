@@ -239,6 +239,22 @@ const HomePage = () => {
                   Career Statistics
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4  p-4">
+                <button className="relative group/btn w-full px-4 py-2 bg-gradient-to-r from-[#090A0C] to-[#3155AE] hover:from-[#3155AE] hover:to-[#161929] backdrop-blur-md border border-cyan-500/30 hover:border-cyan-400/50 transition-all duration-300 rounded">
+                    {/* Button Content */}
+                    <span className="relative flex items-center justify-center gap-2 text-cyan-300 group-hover/btn:text-cyan-200 transition-colors duration-300">
+                      {/* <span className="w-4 h-4"><FiUsers /></span> */}
+                      IPL matches
+                    </span>
+                    <div className="text-2xl md:text-3xl font-bold">
+                      {player.ipl}
+                    </div>
+
+                    {/* Geometric Accents */}
+                    <div className="absolute -top-[1px] -left-[1px] w-2 h-2 border-t border-l border-cyan-500"></div>
+                    <div className="absolute -top-[1px] -right-[1px] w-2 h-2 border-t border-r border-cyan-500"></div>
+                    <div className="absolute -bottom-[1px] -left-[1px] w-2 h-2 border-b border-l border-cyan-500"></div>
+                    <div className="absolute -bottom-[1px] -right-[1px] w-2 h-2 border-b border-r border-cyan-500"></div>
+                  </button>
                   <button className="relative group/btn w-full px-4 py-2 bg-gradient-to-r from-[#090A0C] to-[#3155AE] hover:from-[#3155AE] hover:to-[#161929] backdrop-blur-md border border-cyan-500/30 hover:border-cyan-400/50 transition-all duration-300 rounded">
                     {/* Button Content */}
                     <span className="relative flex items-center justify-center gap-2 text-cyan-300 group-hover/btn:text-cyan-200 transition-colors duration-300">
@@ -262,7 +278,7 @@ const HomePage = () => {
                       Wickets
                     </span>
                     <div className="text-2xl md:text-3xl font-bold">
-                     { player.wickets}
+                     { player.wickets == 0?"N/A":player.wickets}
                     </div>
 
                     {/* Geometric Accents */}
@@ -287,22 +303,7 @@ const HomePage = () => {
                     <div className="absolute -bottom-[1px] -left-[1px] w-2 h-2 border-b border-l border-cyan-500"></div>
                     <div className="absolute -bottom-[1px] -right-[1px] w-2 h-2 border-b border-r border-cyan-500"></div>
                   </button>
-                  <button className="relative group/btn w-full px-4 py-2 bg-gradient-to-r from-[#090A0C] to-[#3155AE] hover:from-[#3155AE] hover:to-[#161929] backdrop-blur-md border border-cyan-500/30 hover:border-cyan-400/50 transition-all duration-300 rounded">
-                    {/* Button Content */}
-                    <span className="relative flex items-center justify-center gap-2 text-cyan-300 group-hover/btn:text-cyan-200 transition-colors duration-300">
-                      {/* <span className="w-4 h-4"><FiUsers /></span> */}
-                      IPL matches
-                    </span>
-                    <div className="text-2xl md:text-3xl font-bold">
-                      {player.ipl}
-                    </div>
-
-                    {/* Geometric Accents */}
-                    <div className="absolute -top-[1px] -left-[1px] w-2 h-2 border-t border-l border-cyan-500"></div>
-                    <div className="absolute -top-[1px] -right-[1px] w-2 h-2 border-t border-r border-cyan-500"></div>
-                    <div className="absolute -bottom-[1px] -left-[1px] w-2 h-2 border-b border-l border-cyan-500"></div>
-                    <div className="absolute -bottom-[1px] -right-[1px] w-2 h-2 border-b border-r border-cyan-500"></div>
-                  </button>
+                 
                   <button className="relative group/btn w-full px-4 py-2 bg-gradient-to-r from-[#090A0C] to-[#3155AE] hover:from-[#3155AE] hover:to-[#161929] backdrop-blur-md border border-cyan-500/30 hover:border-cyan-400/50 transition-all duration-300 rounded">
                     {/* Button Content */}
                     <span className="relative flex items-center justify-center gap-2 text-cyan-300 group-hover/btn:text-cyan-200 transition-colors duration-300">
