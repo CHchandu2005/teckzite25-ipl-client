@@ -186,10 +186,18 @@ const HomePage = () => {
               </div>
             </div>
             
-            <div className="w-full md:w-1/2 p-4 md:p-8 lg:p-12 bg-gradient-to-br from-cyan-9000 via-cyan to-gray-9000 ">
+            {/* <div className="w-full md:w-1/2 p-4 md:p-8 lg:p-12 bg-gradient-to-bl from-cyan-9000 via-gray to-cyan-9000 "> */}
+            <div 
+  className="w-full md:w-1/2 p-4 md:p-8 lg:p-12"
+  style={{
+    background: "radial-gradient(circle, black 0%, black 40%,rgb(10, 72, 74) 100%)"
+  }}
+>
+
               {/* Auction Details and Career Statistics sections */}
               {/* ... (rest of your code) ... */}
-              <div className="bg-opacity-80 backdrop-blur-md rounded-xl p-4 md:p-8 mb-8 transition-transform transform border border border-cyan-500/60 hover:scale-105">
+              <div className="">
+              <div className="bg-opacity-80 backdrop-blur-md rounded-xl p-4 md:p-8 mb-8 transition-transform transform border border border-cyan-500/60 hover:scale-105 ">
                 <h2 className="text-xl md:text-2xl font-bold mb-4 flex items-center">
                   <i className="fas fa-dollar-sign w-6 h-6 mr-3 text-cyan-500">
                   </i>
@@ -231,6 +239,7 @@ const HomePage = () => {
                   </button>
                 </div>
               </div>
+
               <div className=" hover:scale-105 bg-opacity-80 backdrop-blur-md rounded-xl p-4 md:p-8 transition-transform transform border border-cyan-500/60">
                 <h2 className="text-xl md:text-2xl font-bold mb-4 flex items-center">
                   <i className="fas fa-chart-line w-5 h-5 mr-3 text-cyan-500">
@@ -338,6 +347,7 @@ const HomePage = () => {
                   </button>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
