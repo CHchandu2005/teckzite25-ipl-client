@@ -98,7 +98,7 @@ const Players = () => {
       const filtered = playersData.filter((player) =>
         player.name.toLowerCase().includes(query)
       );
-      console.log("filtered players:", filtered);
+      
       setFilteredPlayers(filtered);
     }
   };

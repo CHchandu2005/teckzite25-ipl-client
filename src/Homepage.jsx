@@ -84,7 +84,7 @@ const HomePage = () => {
   useEffect(() => {
     // Listen for updates from the server
     const handleUpdateViewer = (newImage) => {
-      console.log('Image received:', newImage);
+  
       setPlayer(newImage); // Update player state
       setAmount(newImage.basePrice.toLocaleString());
       setAuctionStatus(false);
@@ -92,7 +92,7 @@ const HomePage = () => {
     };
 
     const handleBidAmount = (bidAmount) => {
-      console.log('Bid amount received:', bidAmount);
+
       setAmount(bidAmount); // Update amount state
     };
 
@@ -115,7 +115,7 @@ const HomePage = () => {
      const handleauctionstart=(message)=>{
       // alert(message)
        setStart(message)
-       console.log(message)
+       
        if(message){
         setPlayerStatus(true);
       }else{
