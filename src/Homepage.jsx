@@ -766,7 +766,7 @@ const HomePage = () => {
                         <span className="text-cyan-300">
                           <FaHourglassStart />
                         </span>
-                        Oops !! Auction Not Yet Started.
+                        Oops !! Auction has been completed.
                       </> :
                       <>
                         <span className="text-cyan-300">
