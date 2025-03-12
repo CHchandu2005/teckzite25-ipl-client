@@ -224,18 +224,18 @@ const ConfettiComponent = () => {
     setTimeout(() => {
     manager.addConfetti();
     },1500);
-    setTimeout(() => {
-        manager.addConfetti();
-        },3000);
-        setTimeout(() => {
-            manager.addConfetti();
-            },4500);
-            setTimeout(() => {
-                manager.addConfetti();
-                },6000);
-                setTimeout(() => {
-                    manager.addConfetti();
-                    },7500);
+    // setTimeout(() => {
+    //     manager.addConfetti();
+    //     },3000);
+    //     setTimeout(() => {
+    //         manager.addConfetti();
+    //         },4500);
+    //         setTimeout(() => {
+    //             manager.addConfetti();
+    //             },6000);
+    //             setTimeout(() => {
+    //                 manager.addConfetti();
+    //                 },7500);
   }, []);
 
   return (
