@@ -102,8 +102,8 @@ import Teams from './Pages/Teams';
 import Players from './Pages/Players';
 import HomePage from './Homepage';
 import Teamplayers from './Pages/Teamplayers';
-import Webteam from './Pages/Webteam';
-import Stats from './Pages/Stats';
+import Webteam from './Pages/webteam';
+import Stats from './Pages/stats';
 
 function Layout() {
   const [selectedIcon, setSelectedIcon] = useState(null);

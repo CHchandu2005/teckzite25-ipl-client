@@ -1,25 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Globe } from 'lucide-react';
 import styled from 'styled-components';
-
-const developers = [
-  {
-    name: "Alex Chen",
-    role: "Lead Developer",
-    avatar: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=160&h=160&fit=crop",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    website: "https://example.com"
-  },
-  {
-    name: "Sarah Johnson",
-    role: "UI/UX Developer",
-    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&fit=crop",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    email: "sarah@example.com"
-  }
-];
 
 const TeamsContainer = styled.div`
   position: relative;
