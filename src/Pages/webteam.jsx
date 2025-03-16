@@ -53,7 +53,7 @@ const Content = styled.div`
   padding: 20px;
 `;
 
-const WebTeam = () => {
+const Webteam = () => {
   return (
     <TeamsContainer>
       <Content>
@@ -65,4 +65,4 @@ const WebTeam = () => {
   );
 };
 
-export default WebTeam;
+export default Webteam;
